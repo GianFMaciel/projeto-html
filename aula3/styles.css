@@ -1,10 +1,15 @@
 body {
     background-color: rgb(4, 177, 204);
+    margin: 0%;
+}
+.escalonando:hover {
+    scale: 1.05;
 }
 .titulo {
     font-size: 35px;
     width: 100%;
     background-color: rgb(6, 182, 182);
+    border-collapse: collapse;
 }
 .classeth {
     font-size: 25px;
