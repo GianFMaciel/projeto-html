@@ -27,6 +27,15 @@ justify-content: space-evenly;
     margin: 0;
     font-size: 500%;
 }
+
+.container img {
+    max-width: 200px;
+    max-height:250px;
+}
+.container{
+    clear: both;
+    margin-top: 20px;
+}
 img {
     vertical-align: top;
     mix-blend-mode: darken;
@@ -73,12 +82,4 @@ button {
     font-size: 100%;
     padding-inline: 3%;
     width: 20%;
-}
-.container img {
-    max-width: 200px;
-    max-height:250px;
-}
-.container{
-    clear: both;
-    margin-top: 20px;
 }
