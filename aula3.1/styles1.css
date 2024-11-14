@@ -12,11 +12,17 @@ header, footer {
 main, aside {
     height: 60vh;
 }
-.brasileirao {
+section {
+    width: 100%;
+    height: 100%;
     display: flex;
-    width: 15%;
-    display: inline-block;
-    
+}
+.brasileirao {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .topo {
     background-color: rgb(60, 1, 155);
@@ -29,4 +35,17 @@ main, aside {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+.venda{
+    display: flex;
+    justify-content: space-evenly
+}
+.imagen {
+    display: flex;
+    margin-right: 10px;
+    width: 25%;
+    height: 25%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%;
 }
