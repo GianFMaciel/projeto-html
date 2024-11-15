@@ -42,10 +42,13 @@ section {
 }
 .imagen {
     display: flex;
-    margin-right: 10px;
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: 35%;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 25%;
+    margin-right: 20px;
+}
+.valorescamisas {
+    
 }
