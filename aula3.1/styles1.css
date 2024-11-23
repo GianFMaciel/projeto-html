@@ -40,14 +40,19 @@ section {
     display: flex;
     justify-content: space-evenly
 }
+.grid-container {
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20% 20% 20% 20%;
+    margin: 0 10%;
+}
 .imagen {
     display: flex;
-    width: 100%;
+    width: 95%;
     height: 35%;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 25%;
-    margin-right: 20px;
+    margin: 0;
 }
 .valorescamisas {
     
