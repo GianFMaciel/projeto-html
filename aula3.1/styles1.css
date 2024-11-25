@@ -40,11 +40,12 @@ section {
     display: flex;
     justify-content: space-evenly
 }
-.grid-container {
-    grid-template-columns: 40% 40%;
+/*.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 20% 20% 20% 20%;
     margin: 0 10%;
-}
+}*/
 .imagen {
     display: flex;
     width: 95%;
